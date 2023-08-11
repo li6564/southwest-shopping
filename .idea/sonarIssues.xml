@@ -3,7 +3,167 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../geek/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/AppletProviderApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/config/WebConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/AdminMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/AdminMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/ProductMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IUserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/BackendApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/ProductController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/api/ResponseResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/common/dto/PageDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/enmus/AuthorizationErrorCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Admin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IUserService.java">
           <value>
             <set />
           </value>
@@ -39,6 +199,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Python_Exp/springboot-dubbo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Python_Exp/springboot-dubbo/springboot-dubbo-provider/src/main/resources/application.yml">
           <value>
             <set />
           </value>

@@ -2,17 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="southwest-shopping" />
+        <module name="shopping-backend" />
+        <module name="shopping-interface" />
+        <module name="shopping-common" />
+        <module name="shopping-applet-provider" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="southwest-shopping" options="-parameters" />
+      <module name="shopping-applet-provider" options="-parameters" />
+      <module name="shopping-backend" options="-parameters" />
+      <module name="shopping-common" options="-parameters" />
+      <module name="shopping-interface" options="-parameters" />
+      <module name="southwest-shopping" options="" />
     </option>
   </component>
 </project>

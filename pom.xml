@@ -3,15 +3,35 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>8</source>
+					<target>8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<modules>
+		<module>shopping-backend</module>
+		<module>shopping-common</module>
+		<module>shopping-interface</module>
+		<module>shopping-applet-provider</module>
+	</modules>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.southwest-shop</groupId>
 	<artifactId>southwest-shop</artifactId>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,118 +40,29 @@
 	</properties>
 
 
-<dependencies>
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-freemarker</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-web</artifactId>
-	</dependency>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.dubbo</groupId>
+			<artifactId>dubbo-dependencies-zookeeper</artifactId>
+			<version>2.7.3</version>
+			<type>pom</type>
+		</dependency>
 
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-test</artifactId>
-		<scope>test</scope>
-		<exclusions>
-			<exclusion>
-				<groupId>org.junit.vintage</groupId>
-				<artifactId>junit-vintage-engine</artifactId>
-			</exclusion>
-		</exclusions>
-	</dependency>
+		<dependency>
+			<groupId>com.southwest-shop</groupId>
+			<artifactId>shopping-common</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-json</artifactId>
-	</dependency>
-
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-aop</artifactId>
-	</dependency>
-
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-mail</artifactId>
-	</dependency>
-
-	<dependency>
-		<groupId>mysql</groupId>
-		<artifactId>mysql-connector-java</artifactId>
-		<scope>runtime</scope>
-	</dependency>
-
-	<!--  mybatis-plus start  -->
-	<dependency>
-		<groupId>com.baomidou</groupId>
-		<artifactId>mybatis-plus-boot-starter</artifactId>
-		<version>3.4.3</version>
-	</dependency>
-
-	<dependency>
-		<groupId>com.baomidou</groupId>
-		<artifactId>mybatis-plus-generator</artifactId>
-		<version>3.3.0</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.apache.velocity</groupId>
-		<artifactId>velocity-engine-core</artifactId>
-		<version>2.1</version>
-	</dependency>
-
-	<dependency>
-		<groupId>com.baomidou</groupId>
-		<artifactId>mybatis-plus-extension</artifactId>
-		<version>3.4.3</version>
-	</dependency>
-	<!--  mybatis-plus end  -->
-
-	<!--   JWT start   -->
-	<!--jwt依赖-->
-	<dependency>
-		<groupId>io.jsonwebtoken</groupId>
-		<artifactId>jjwt</artifactId>
-		<version>0.9.0</version>
-	</dependency>
-	<!--   JWT end   -->
-
-	<!--fastjson依赖-->
-	<dependency>
-		<groupId>com.alibaba</groupId>
-		<artifactId>fastjson</artifactId>
-		<version>1.2.50</version>
-	</dependency>
-
-	<!--   Redis start  -->
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-data-redis</artifactId>
-	</dependency>
-	<!--   Redis end  -->
-
-	<!--SpringSecurity启动器-->
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-security</artifactId>
-		<version>2.5.0</version>
-	</dependency>
-	<!--lombok-->
-	<dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<optional>true</optional>
-	</dependency>
-	<!--junit-->
-	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<scope>test</scope>
-	</dependency>
-</dependencies>
-
-
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.dubbo</groupId>
+				<artifactId>dubbo-spring-boot-starter</artifactId>
+				<version>2.7.3</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 </project>

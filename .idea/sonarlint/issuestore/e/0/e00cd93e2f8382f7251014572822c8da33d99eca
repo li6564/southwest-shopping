@@ -1,0 +1,31 @@
+
+y
+java:S1488+"^Immediately return this expression instead of assigning it to the temporary variable "result".(ìÛó™şÿÿÿÿ
+J
+java:S3740'"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+J
+java:S3740+"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+J
+java:S3740+"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+<
+java:S1948"&Make "data" transient or serializable.(íİµ˜
+J
+java:S3740&"/Provide the parametrized type for this generic.(‚ÚÌàÿÿÿÿÿ
+J
+java:S37400"/Provide the parametrized type for this generic.(åÄĞûÿÿÿÿ
+E
+java:S37405"/Provide the parametrized type for this generic.(À°Ï¯
+E
+java:S3740*"/Provide the parametrized type for this generic.(ü„Ó¨
+J
+java:S37401"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+A
+java:S1452:"&Remove usage of generic wildcard type.(ĞŠÊşÿÿÿÿ
+J
+java:S37401"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+J
+java:S3740'"/Provide the parametrized type for this generic.(ìÛó™şÿÿÿÿ
+A
+java:S1452F"&Remove usage of generic wildcard type.(¤ì®»øÿÿÿÿ
+A
+java:S1452?"&Remove usage of generic wildcard type.(•—ÉÉøÿÿÿÿ
