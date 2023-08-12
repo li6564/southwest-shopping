@@ -1208,7 +1208,7 @@
     <table id="310" parent="22" name="t_product_swiper_image">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="311" parent="22" name="t_smalltype">
+    <table id="311" parent="22" name="t_small_type">
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="312" parent="22" name="t_wxuserinfo">
@@ -1503,22 +1503,42 @@
       <DataType>varchar(2000)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="360" parent="309" name="typeId">
+    <column id="360" parent="309" name="status">
+      <Position>15</Position>
+      <Comment>商品状态 1正常 0已售空</Comment>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="361" parent="309" name="create_time">
+      <Position>16</Position>
+      <Comment>商品发布时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="362" parent="309" name="update_time">
+      <Position>17</Position>
+      <Comment>商品跟新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="363" parent="309" name="typeId">
       <ColNames>type_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="361" parent="309" name="PRIMARY">
+    <key id="364" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="362" parent="309" name="t_product_ibfk_1">
+    <foreign-key id="365" parent="309" name="t_product_ibfk_1">
       <ColNames>type_id</ColNames>
       <RefSchemaName>shangcheng</RefSchemaName>
-      <RefTableName>t_smalltype</RefTableName>
+      <RefTableName>t_small_type</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="363" parent="310" name="id">
+    <column id="366" parent="310" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int|0s</DataType>
@@ -1526,30 +1546,50 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="364" parent="310" name="image">
+    <column id="367" parent="310" name="image">
       <Position>2</Position>
       <Comment>图片</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="365" parent="310" name="sort">
+    <column id="368" parent="310" name="sort">
       <Position>3</Position>
       <Comment>排序</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="366" parent="310" name="productId">
+    <column id="369" parent="310" name="productId">
       <Position>4</Position>
       <Comment>所属商品id</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="367" parent="310" name="PRIMARY">
+    <column id="370" parent="310" name="status">
+      <Position>5</Position>
+      <Comment>状态 1正常 0删除</Comment>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="310" name="create_time">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="310" name="update_time">
+      <Position>7</Position>
+      <Comment>跟新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="373" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="368" parent="311" name="id">
+    <column id="374" parent="311" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int|0s</DataType>
@@ -1557,40 +1597,60 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="369" parent="311" name="name">
+    <column id="375" parent="311" name="name">
       <Position>2</Position>
       <Comment>商品小类</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="370" parent="311" name="remark">
+    <column id="376" parent="311" name="remark">
       <Position>3</Position>
       <Comment>备注</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="371" parent="311" name="bigTypeId">
+    <column id="377" parent="311" name="big_type_id">
       <Position>4</Position>
       <Comment>商品大类编号</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="372" parent="311" name="bigTypeId">
-      <ColNames>bigTypeId</ColNames>
+    <column id="378" parent="311" name="status">
+      <Position>5</Position>
+      <Comment>状态 1正常 0删除</Comment>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="311" name="create_time">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="311" name="update_time">
+      <Position>7</Position>
+      <Comment>跟新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="381" parent="311" name="bigTypeId">
+      <ColNames>big_type_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="373" parent="311" name="PRIMARY">
+    <key id="382" parent="311" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="374" parent="311" name="t_smalltype_ibfk_1">
-      <ColNames>bigTypeId</ColNames>
+    <foreign-key id="383" parent="311" name="t_small_type_ibfk_1">
+      <ColNames>big_type_id</ColNames>
       <RefSchemaName>shangcheng</RefSchemaName>
       <RefTableName>t_big_type</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="375" parent="312" name="id">
+    <column id="384" parent="312" name="id">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>int|0s</DataType>
@@ -1598,37 +1658,37 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="376" parent="312" name="openid">
+    <column id="385" parent="312" name="openid">
       <Position>2</Position>
       <Comment>用户唯一标识</Comment>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="377" parent="312" name="nickName">
+    <column id="386" parent="312" name="nickName">
       <Position>3</Position>
       <Comment>用户昵称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="378" parent="312" name="avatarUrl">
+    <column id="387" parent="312" name="avatarUrl">
       <Position>4</Position>
       <Comment>用户头像图片的 URL</Comment>
       <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="379" parent="312" name="registerDate">
+    <column id="388" parent="312" name="registerDate">
       <Position>5</Position>
       <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="380" parent="312" name="lastLoginDate">
+    <column id="389" parent="312" name="lastLoginDate">
       <Position>6</Position>
       <Comment>最后登录日期</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="381" parent="312" name="PRIMARY">
+    <key id="390" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

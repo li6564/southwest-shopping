@@ -5,6 +5,7 @@ import cn.southwest.shop.service.IProductService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -36,6 +37,12 @@ public class ProductController {
     public ResponseResult findHot(){
         ResponseResult productHotList = productService.findHot();
         return productHotList;
+    }
+
+    @GetMapping("/detail")
+    public ResponseResult findProductById(@RequestParam("id") Integer id){
+        ResponseResult product = productService.findProductById(id);
+        return product;
     }
 
 }

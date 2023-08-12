@@ -39,12 +39,12 @@ public class Product implements Serializable {
     //设置热卖日期
     private Date hotDatetime;
     //商品介绍图片
-    private String productIntroimgs;
+    private String productIntroImgs;
     //商品规格参数图片
-    private String productParaimgs;
+    private String productParaImgs;
     //商品描述
     private String description;
-    //状态  1 正常 0 已售空
+    //状态  1 正常 0 下架
     private Integer status;
     //创建时间
     @TableField(fill = FieldFill.INSERT)

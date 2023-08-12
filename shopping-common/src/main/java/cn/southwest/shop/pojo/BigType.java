@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * (BigType)表实体类
@@ -32,6 +33,9 @@ public class BigType implements Serializable {
     //更新时间
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
+
+    @TableField(select = false)
+    private List<SmallType> smallTypeList;
 
 }
 

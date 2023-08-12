@@ -69,3 +69,15 @@ Oshopping-interface/src/main/java/cn/southwest/shop/service/IBigTypeService.java
 Rshopping-backend/src/main/java/cn/southwest/shop/controller/BigTypeController.java,9\f\9fd12a8d89ca6d641795e904a22b6f30d6647b6f
 w
 Gshopping-common/src/main/java/cn/southwest/shop/common/dto/PageDTO.java,7\1\71075ba56c4481696e33d24d06eb746efa628859
+Ñ
+Tshopping-applet-provider/src/main/java/cn/southwest/shop/mapper/SmallTypeMapper.java,e\4\e475f9382b9015e1a72428aa5056208e764a79e3
+á
+Wshopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/SmallTypeMapper.xml,6\0\60dece6ab1f799670bff1ec3f4b3757526904002
+s
+Cshopping-common/src/main/java/cn/southwest/shop/pojo/SmallType.java,b\3\b311be377722dbeb16c014cde170fbc56746506a
+ê
+`shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/ISmallTypeServiceImpl.java,5\3\532d24ec29ae40061f6b96d77ba7fec77f1afcc3
+}
+Mshopping-common/src/main/java/cn/southwest/shop/constant/SystemConstants.java,8\8\886df0cff8afa44493a2d3fe3804cde1b8151177
+Å
+Qshopping-interface/src/main/java/cn/southwest/shop/service/ISmallTypeService.java,c\d\cdcb1257a2b10e666ea4f791f66169de0f85ee7c

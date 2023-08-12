@@ -27,4 +27,10 @@ public class BigTypeController {
         ResponseResult bigTypeList = bigTypeService.findAll();
         return bigTypeList;
     }
+
+    @GetMapping("/findCategories")
+    public ResponseResult findCategories(){
+        ResponseResult categories = bigTypeService.findCategories();
+        return categories;
+    }
 }

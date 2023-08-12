@@ -9,5 +9,15 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @Date：2023/8/11 19:49
  */
 public interface IBigTypeService extends IService<BigType> {
+    /**
+     * 查询商品大类列表
+     * @return
+     */
     ResponseResult findAll();
+
+    /**
+     * 查询商品分类信息
+     * @return
+     */
+    ResponseResult findCategories();
 }

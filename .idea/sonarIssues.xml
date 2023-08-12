@@ -73,6 +73,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductSwiperImage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductSwiperImageMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/SmallTypeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/AdminMapper.xml">
           <value>
             <set />
@@ -84,6 +99,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/ProductMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/ProductSwiperImageMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/SmallTypeMapper.xml">
           <value>
             <set />
           </value>
@@ -104,6 +129,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductSwiperImageServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/ISmallTypeServiceImpl.java">
           <value>
             <set />
           </value>
@@ -168,6 +203,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/constant/SystemConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/enmus/AuthorizationErrorCode.java">
           <value>
             <set />
@@ -198,6 +238,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/ProductSwiperImage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/SmallType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/ProductDetailVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-interface/pom.xml">
           <value>
             <set />
@@ -214,6 +269,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IProductSwiperImageService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/ISmallTypeService.java">
           <value>
             <set />
           </value>

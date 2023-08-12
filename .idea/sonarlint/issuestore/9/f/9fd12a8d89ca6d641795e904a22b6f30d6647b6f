@@ -1,9 +1,7 @@
 
-Q
-java:S3740"/Provide the parametrized type for this generic.(¥’¹ãøÿÿÿÿ8¯Ÿ„¤ž1
-L
-java:S3740"/Provide the parametrized type for this generic.(Ä¦úú8ª©õ£ž1
-š
-java:S1128	"xRemove this unused import 'org.springframework.web.servlet.mvc.method.annotation.ServletResponseMethodArgumentResolver'.(Ù®ØÔùÿÿÿÿ8ª©õ£ž1
 …
 java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "bigTypeList".(¥’¹ãøÿÿÿÿ8ìö…¤ž1
+
+java:S1488!"bImmediately return this expression instead of assigning it to the temporary variable "categories".(°ãÒŠ8‡‘Â»ž1
+š
+java:S1128	"xRemove this unused import 'org.springframework.web.servlet.mvc.method.annotation.ServletResponseMethodArgumentResolver'.(Ù®ØÔùÿÿÿÿ8ª©õ£ž1
