@@ -88,6 +88,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/WxUserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/AdminMapper.xml">
           <value>
             <set />
@@ -109,6 +114,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/SmallTypeMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/WxUserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/WxUserMapper.xml">
           <value>
             <set />
           </value>
@@ -148,6 +163,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IWxUserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/resources/application.yml">
           <value>
             <set />
@@ -168,6 +188,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/config/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/BigTypeController.java">
           <value>
             <set />
@@ -179,6 +204,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/WxUserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/filter/JwtSecurityFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/properties/WeixinProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/properties/properties.java">
           <value>
             <set />
           </value>
@@ -248,7 +293,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/WxUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/utils/HttpClientUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/utils/SecurityUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/ProductDetailVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/UserDetailForm.java">
           <value>
             <set />
           </value>
@@ -284,6 +349,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IUserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IWxUserService.java">
           <value>
             <set />
           </value>

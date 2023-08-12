@@ -8,3 +8,7 @@ dubbo:
     #注册中心地址
     address: zookeeper://127.0.0.1:2181
 
+weixin:
+  jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session
+  appid: wx428c29dea9b5cf58
+  secret: a474935385f13e0def2438a9f4598fd3

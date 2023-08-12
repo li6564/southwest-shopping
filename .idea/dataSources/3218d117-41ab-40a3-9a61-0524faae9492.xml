@@ -1211,7 +1211,7 @@
     <table id="311" parent="22" name="t_small_type">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="312" parent="22" name="t_wxuserinfo">
+    <table id="312" parent="22" name="t_wx_user">
       <Collation>utf8_general_ci</Collation>
     </table>
     <column id="313" parent="305" name="id">
@@ -1485,13 +1485,13 @@
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="309" name="product_introImgs">
+    <column id="357" parent="309" name="product_intro_imgs">
       <Position>12</Position>
       <Comment>商品介绍图片</Comment>
       <DataType>varchar(2000)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="309" name="product_paraimgs">
+    <column id="358" parent="309" name="product_para_imgs">
       <Position>13</Position>
       <Comment>商品规格参数图片</Comment>
       <DataType>varchar(2000)|0s</DataType>
@@ -1658,31 +1658,31 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="385" parent="312" name="openid">
+    <column id="385" parent="312" name="open_id">
       <Position>2</Position>
       <Comment>用户唯一标识</Comment>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="386" parent="312" name="nickName">
+    <column id="386" parent="312" name="nick_name">
       <Position>3</Position>
       <Comment>用户昵称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="387" parent="312" name="avatarUrl">
+    <column id="387" parent="312" name="avatar_url">
       <Position>4</Position>
       <Comment>用户头像图片的 URL</Comment>
       <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="388" parent="312" name="registerDate">
+    <column id="388" parent="312" name="register_date">
       <Position>5</Position>
       <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="389" parent="312" name="lastLoginDate">
+    <column id="389" parent="312" name="last_login_date">
       <Position>6</Position>
       <Comment>最后登录日期</Comment>
       <DataType>datetime|0s</DataType>
