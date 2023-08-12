@@ -8,8 +8,3 @@ dubbo:
     #注册中心地址
     address: zookeeper://127.0.0.1:2181
 
-
-spring:
-  http:
-    encoding:
-      charset: UTF-8

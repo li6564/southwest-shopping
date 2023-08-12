@@ -28,4 +28,14 @@ public class ProductController {
         return swiper;
     }
 
+    /**
+     * 查询热卖商品推荐
+     * @return
+     */
+    @GetMapping("/findHot")
+    public ResponseResult findHot(){
+        ResponseResult productHotList = productService.findHot();
+        return productHotList;
+    }
+
 }

@@ -58,6 +58,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/BigTypeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/BigtypeMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductMapper.java">
           <value>
             <set />
@@ -68,7 +78,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/BigtypeMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/ProductMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IBigTypeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IBigtypeServiceImpl.java">
           <value>
             <set />
           </value>
@@ -108,6 +133,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/BigTypeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/ProductController.java">
           <value>
             <set />
@@ -143,7 +173,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/handler/MyMetaObjectHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Admin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/BigType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Bigtype.java">
           <value>
             <set />
           </value>
@@ -154,6 +199,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-interface/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IBigTypeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IBigtypeService.java">
           <value>
             <set />
           </value>

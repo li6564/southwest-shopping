@@ -1,8 +1,6 @@
 package cn.southwest.shop.pojo;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -46,6 +44,14 @@ public class Product implements Serializable {
     private String productParaimgs;
     //商品描述
     private String description;
+    //状态  1 正常 0 已售空
+    private Integer status;
+    //创建时间
+    @TableField(fill = FieldFill.INSERT)
+    private Date createTime;
+    //更新时间
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date updateTime;
 
 }
 
