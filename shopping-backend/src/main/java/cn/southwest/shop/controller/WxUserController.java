@@ -55,6 +55,7 @@ public class WxUserController {
             user.setOpenId(openId);
             responseResult = wxUserService.addWxUser(user);
         }else {
+            user.setOpenId(openId);
             responseResult = wxUserService.UpdataWxUser(user);
         }
 

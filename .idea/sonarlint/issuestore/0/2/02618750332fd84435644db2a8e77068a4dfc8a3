@@ -1,0 +1,13 @@
+
+Q
+java:S3740("/Provide the parametrized type for this generic.(―λπώÿÿÿÿ8¶Ϋγκ1
+Q
+java:S37405"/Provide the parametrized type for this generic.(Ϋςσόÿÿÿÿ8¶Ϋγκ1
+W
+java:S1128":Remove this unused import 'lombok.experimental.Accessors'.(ώ΅Π„8¶Ϋγκ1
+`
+java:S1128">Remove this unused import 'cn.southwest.shop.utils.JsonUtils'.(Ζ•„ϊÿÿÿÿ8¶Ϋγκ1
+Y
+java:S1128	"<Remove this unused import 'cn.southwest.shop.utils.JwtUtil'.(Σ…8¶Ϋγκ1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(­Ε€Θ8¶Ϋγκ1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(³κΌωύÿÿÿÿ8¶Ϋγκ1

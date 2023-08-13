@@ -1,0 +1,8 @@
+
+K
+java:S3740 "/Provide the parametrized type for this generic.(Ççş[8¾¤Ë1
+r
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8ÀÛ£Ë1
+i	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ççş[8¿ĞË1
+Q
+java:S3740"/Provide the parametrized type for this generic.( ’÷ãÿÿÿÿÿ8´¥£Ë1

@@ -1,0 +1,23 @@
+
+l
+java:S2095y"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(‘ÁÄÐüÿÿÿÿ
+m
+java:S2095·"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(‘ÁÄÐüÿÿÿÿ
+m
+java:S2095€"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(âÁê‚ùÿÿÿÿ
+a
+java:S1192P"FDefine a constant instead of duplicating this literal "UTF-8" 6 times.(ôõª³ùÿÿÿÿ
+w
+java:S1488…"`Immediately return this expression instead of assigning it to the temporary variable "response".(µõÎ±
+o
+java:S2293a"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ãš„
+O
+java:S2864b"4Iterate over the "entrySet" instead of the "keySet".(±â‰—úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„ñ–„ýÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(¹¦¥¾
+¡
+java:S1130ÿ"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(‰Û’ç
+–
+java:S1130‘"Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.(¢“‡ð
+U
+java:S4719•"9Replace charset name argument with StandardCharsets.UTF_8(Éµ»ñÿÿÿÿÿ

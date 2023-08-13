@@ -1,5 +1,6 @@
 package cn.southwest.shop.filter;
 
+import cn.southwest.shop.constant.RedisConstants;
 import cn.southwest.shop.pojo.WxUser;
 import cn.southwest.shop.utils.JwtUtil;
 import cn.southwest.shop.utils.RedisCache;
@@ -17,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 @Component
 public class JwtSecurityFilter extends OncePerRequestFilter {
@@ -41,11 +43,13 @@ public class JwtSecurityFilter extends OncePerRequestFilter {
             throw new RuntimeException("token非法");
         }
         //从redis中获取用户信息
-        String key = "login"+openId;
+        String key = RedisConstants.LOGIN+openId;
         WxUser userDetails = redisCache.getCacheObject(key);
         if (Objects.isNull(userDetails)){
             throw new RuntimeException("用户未登录");
         }
+        //刷新redis用户缓存信息
+        redisCache.setCacheObject(RedisConstants.LOGIN +openId,userDetails,RedisConstants.LOGIN_KEY_TTL, TimeUnit.HOURS);
 
         //将用户信息封装到SecurityContextHolder
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userDetails,null,null);

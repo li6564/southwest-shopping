@@ -1,6 +1,8 @@
 package cn.southwest.shop.service.impl;
 
 import cn.southwest.shop.api.ResponseResult;
+import cn.southwest.shop.constant.RedisConstants;
+import cn.southwest.shop.constant.SystemConstants;
 import cn.southwest.shop.enmus.AppHttpCodeEnum;
 import cn.southwest.shop.mapper.WxUserMapper;
 import cn.southwest.shop.pojo.WxUser;
@@ -41,21 +43,24 @@ public class IWxUserServiceImpl extends ServiceImpl<WxUserMapper, WxUser>  imple
         String openId = wxUser.getOpenId();
         //生成token返回给前端小程序
         String token = JwtUtil.createJWT(openId);
-        redisCache.setCacheObject("login"+token,wxUser,2, TimeUnit.HOURS);
-        return new ResponseResult<>().ok("success",token);
+        redisCache.setCacheObject(RedisConstants.LOGIN +openId,wxUser,RedisConstants.LOGIN_KEY_TTL, TimeUnit.HOURS);
+        return new ResponseResult<>().ok(SystemConstants.LOGIN_SUCCESS_CODE,token);
     }
 
     @Override
     public ResponseResult UpdataWxUser(WxUser user) {
-        //跟新微信用户
-        WxUser wxUser = new WxUser();
-        wxUser.setNickName(user.getNickName()).setAvatarUrl(user.getAvatarUrl());
-        updateById(wxUser);
         //获取openid
         String openId = user.getOpenId();
+        LambdaQueryWrapper<WxUser> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(WxUser::getOpenId, user.getOpenId());
+        //跟新微信用户
+        WxUser wxUser = getOne(queryWrapper);
+        wxUser.setNickName(user.getNickName()).setAvatarUrl(user.getAvatarUrl());
+        updateById(wxUser);
+
         //生成token返回给前端小程序
         String token = JwtUtil.createJWT(openId);
-        redisCache.setCacheObject("login"+token,wxUser,2, TimeUnit.HOURS);
-        return new ResponseResult<>().ok("success",token);
+        redisCache.setCacheObject(RedisConstants.LOGIN+openId,wxUser,RedisConstants.LOGIN_KEY_TTL, TimeUnit.HOURS);
+        return new ResponseResult<>().ok(SystemConstants.LOGIN_SUCCESS_CODE,token);
     }
 }

@@ -1,7 +1,7 @@
 package cn.southwest.shop.utils;
 
 
-import cn.southwest.shop.vo.UserDetailForm;
+import cn.southwest.shop.pojo.WxUser;
 import com.aliyuncs.utils.StringUtils;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -15,9 +15,9 @@ public class SecurityUtils
     /**
      * 获取用户
      **/
-    public static UserDetailForm getLoginUser()
+    public static WxUser getLoginUser()
     {
-        return (UserDetailForm) getAuthentication().getPrincipal();
+        return (WxUser) getAuthentication().getPrincipal();
     }
 
     /**
@@ -28,7 +28,7 @@ public class SecurityUtils
     }
 
     public static Boolean isAdmin(){
-        String id = getLoginUser().getUser().getOpenId();
+        String id = getLoginUser().getOpenId();
         return StringUtils.isNotEmpty(id);
     }
 
@@ -45,6 +45,6 @@ public class SecurityUtils
      * @return
      */
     public static String getUserId() {
-        return getLoginUser().getUser().getOpenId();
+        return getLoginUser().getOpenId();
     }
 }

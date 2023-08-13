@@ -68,6 +68,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/CartMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductCartMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/ProductMapper.java">
           <value>
             <set />
@@ -99,6 +109,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/BigtypeMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/CartMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/mapper/xml/ProductCartMapper.xml">
           <value>
             <set />
           </value>
@@ -138,6 +158,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/ICartServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductCartServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IProductService.java">
           <value>
             <set />
@@ -173,6 +203,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/test/java/com/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-backend/pom.xml">
           <value>
             <set />
@@ -194,6 +229,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/BigTypeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-backend/src/main/java/cn/southwest/shop/controller/CartController.java">
           <value>
             <set />
           </value>
@@ -248,6 +288,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/constant/RedisConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/constant/SystemConstants.java">
           <value>
             <set />
@@ -278,7 +323,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Cart.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/pojo/ProductCart.java">
           <value>
             <set />
           </value>
@@ -308,6 +363,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/CarProductVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/CarVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/CartProductVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/CartVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-common/src/main/java/cn/southwest/shop/vo/ProductDetailVo.java">
           <value>
             <set />
@@ -329,6 +404,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IBigtypeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/ICartService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-interface/src/main/java/cn/southwest/shop/service/IProductCartService.java">
           <value>
             <set />
           </value>

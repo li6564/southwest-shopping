@@ -1,4 +1,10 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Œå­ÿ8ÞÚ£žž1
+Q
+java:S3740%"/Provide the parametrized type for this generic.(¬Û¹ïýÿÿÿÿ8ó¥ˆ½ž1
+L
+java:S37405"/Provide the parametrized type for this generic.(ª×¾ð8ó¥ˆ½ž1
 €
-java:S14884"cImmediately return this expression instead of assigning it to the temporary variable "productList".(Úªâí8ßÿ‡»ž1
+java:S1488="cImmediately return this expression instead of assigning it to the temporary variable "productList".(Úªâí8ßÿ‡»ž1
+L
+java:S3740L"/Provide the parametrized type for this generic.(±åŽ¶8ó¦”½ž1
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(Œå­ÿ8ÞÚ£žž1

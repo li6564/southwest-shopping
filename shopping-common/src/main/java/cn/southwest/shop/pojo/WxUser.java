@@ -26,6 +26,8 @@ public class WxUser implements Serializable {
     private String nickName;
     //用户头像图片的 URL
     private String avatarUrl;
+    //用户状态 1正常 0禁用
+    private Integer status;
     //注册日期
     @TableField(fill = FieldFill.INSERT)
     private Date registerDate;
