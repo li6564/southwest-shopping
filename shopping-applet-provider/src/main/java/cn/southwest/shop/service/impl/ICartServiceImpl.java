@@ -99,6 +99,37 @@ public class ICartServiceImpl extends ServiceImpl<CartMapper, Cart> implements I
     }
 
     @Override
+    public ResponseResult deleteCartProduct(Integer productId, String openId) {
+        //获取用户购物车
+        LambdaQueryWrapper<Cart> cartQueryWrapper = new LambdaQueryWrapper<>();
+        cartQueryWrapper.eq(Cart::getUserId,openId);
+        Cart cart = getOne(cartQueryWrapper);
+        if (cart.getNumber() == 0){
+            return new ResponseResult(SystemConstants.CART_NULL);
+        }
+        //获取商品购物车实体
+        LambdaQueryWrapper<ProductCart> productCartQueryWrapper = new LambdaQueryWrapper<>();
+        productCartQueryWrapper.eq(ProductCart::getCartId,cart.getCartId())
+                .eq(ProductCart::getProductId,productId)
+                .eq(ProductCart::getStatus,SystemConstants.PRODUCT_CART_NORMAL)
+                .orderByAsc(ProductCart::getCreateTime);
+        List<ProductCart> productCarts = productCartService.list(productCartQueryWrapper);
+        //判断如果该商品数量大于0则删除最近添加的
+        if (productCarts.size()>0){
+            ProductCart productCart = productCarts.get(productCarts.size() - 1);
+            productCart.setStatus(SystemConstants.PRODUCT_CART_ABNORMAL);
+            boolean flag = productCartService.updateById(productCart);
+            if (flag){
+                //更新购物车商品数量
+                cart.setNumber(cart.getNumber()-1);
+                updateById(cart);
+            }
+            return new ResponseResult("success");
+        }
+        return new ResponseResult("error");
+    }
+
+    @Override
     public ResponseResult findCartProductByOpenId(String openId) {
         //获取用户购物车
         LambdaQueryWrapper<Cart> cartQueryWrapper = new LambdaQueryWrapper<>();

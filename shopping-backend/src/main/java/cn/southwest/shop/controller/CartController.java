@@ -34,4 +34,10 @@ public class CartController {
         ResponseResult result = cartService.findCartProductByOpenId(openId);
         return result;
     }
+
+    @GetMapping("/deleteCartProduct")
+    public ResponseResult deleteCartProduct(@RequestParam("id") Integer id){
+        String openId = SecurityUtils.getUserId();
+        return cartService.deleteCartProduct(id,openId);
+    }
 }

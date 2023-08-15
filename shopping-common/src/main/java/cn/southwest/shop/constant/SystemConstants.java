@@ -72,4 +72,9 @@ public class SystemConstants {
      * 购物车商品状态正常
      */
     public static final Integer PRODUCT_CART_NORMAL = 1;
+
+    /**
+     * 购物车商品状态删除
+     */
+    public static final Integer PRODUCT_CART_ABNORMAL = 0;
 }

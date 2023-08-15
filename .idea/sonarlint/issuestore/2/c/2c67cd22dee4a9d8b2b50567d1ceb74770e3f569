@@ -1,17 +1,41 @@
 
+R
+java:S3740"/Provide the parametrized type for this generic.(È«Ù×ùÿÿÿÿ8Åµ«œŸ1
+L
+java:S37401"/Provide the parametrized type for this generic.(·”‡›8“ô¯í1
+M
+java:S3740¨"/Provide the parametrized type for this generic.(Æ¦««8†æ§ô1
+L
+java:S3740b"/Provide the parametrized type for this generic.(”•œä8”»î1
+L
+java:S3740l"/Provide the parametrized type for this generic.(ŠÉéÕ8¬ ‡œŸ1
+M
+java:S3740‹"/Provide the parametrized type for this generic.(ŠÉéÕ8óÀó1
+I
+java:S1602˜",Remove useless curly braces around statement(Åˆ¥y8Á¤êó1
+L
+java:S3740"/Provide the parametrized type for this generic.(”•œä8Ë×ªœŸ1
+\
+java:S4973"9Use the "equals" method if value comparison was intended.(®˜Ï­ùÿÿÿÿ8Ã¥İó1
+X
+java:S1854œ":Remove this useless assignment to local variable "cartVo".(ÚÃÛş8†·†ô1
+L
+java:S3740W"/Provide the parametrized type for this generic.(ĞÇ¸¦8Öƒ¬õ1
+L
+java:S3740?"/Provide the parametrized type for this generic.(â¦ô8òãûí1
+[
+java:S4973M"9Use the "equals" method if value comparison was intended.(®˜Ï­ùÿÿÿÿ8Ã¥İó1
 Q
-java:S3740H"/Provide the parametrized type for this generic.(¡®Û®ÿÿÿÿÿ8™Ù£î1
+java:S3740N"/Provide the parametrized type for this generic.(¡®Û®ÿÿÿÿÿ8™Ù£î1
+I
+java:S1481œ"+Remove this unused "cartVo" local variable.(ÚÃÛş8†·†ô1
+R
+java:S3740"/Provide the parametrized type for this generic.(¡®Û®ÿÿÿÿÿ8óÀó1
+`
+java:S1155v">Use isEmpty() to check whether the collection is empty or not.(ğÒßàúÿÿÿÿ8Ô” œŸ1
 L
-java:S3740R"/Provide the parametrized type for this generic.(”•œä8”»î1
-c
-java:S1128"FRemove this unused import 'org.apache.catalina.security.SecurityUtil'.(Ù¼º8¼×Äí1
+java:S37406"/Provide the parametrized type for this generic.(ĞÇ¸¦8öÁí1
 L
-java:S3740:"/Provide the parametrized type for this generic.(â¦ô8òãûí1
-L
-java:S37400"/Provide the parametrized type for this generic.(ĞÇ¸¦8öÁí1
-_
-java:S2259B"BA "NullPointerException" could be thrown; "cart" is nullable here.(Ø¥Æ8ˆ«•î1
-L
-java:S3740,"/Provide the parametrized type for this generic.(·”‡›8“ô¯í1
-Q
-java:S3740'"/Provide the parametrized type for this generic.(ıã ×ûÿÿÿÿ8µİŒí1
+java:S3740f"/Provide the parametrized type for this generic.(ÙÙ–¯8ŞØé›Ÿ1
+z
+java:S1128"XRemove this unused import 'com.baomidou.mybatisplus.core.conditions.query.QueryWrapper'.(ÓÆÂæÿÿÿÿÿ8ªĞ£ô1

@@ -1,0 +1,17 @@
+
+c
+java:S1128"FRemove this unused import 'org.apache.catalina.security.SecurityUtil'.(Ù¼º8ùÔŸñ1
+K
+java:S3740"/Provide the parametrized type for this generic.(Ö›•8¡ø´ô1
+L
+java:S3740"/Provide the parametrized type for this generic.(°ıÒë8Ğû€ğ1
+K
+java:S3740"/Provide the parametrized type for this generic.(í©˜b8—µ­ô1
+L
+java:S5411"*Use the primitive boolean expression here.(³àçøÿÿÿÿ8¡ø´ô1
+{
+java:S1488""^Immediately return this expression instead of assigning it to the temporary variable "result".(®†º£8¨£·ô1
+L
+java:S3740""/Provide the parametrized type for this generic.(®†º£8Áß¶ô1
+L
+java:S3740'"/Provide the parametrized type for this generic.(ê©„¯8ñë¶œŸ1

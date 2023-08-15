@@ -1,11 +1,11 @@
 
-F
-java:S1481)")Remove this unused "flag" local variable.(½û£Å8Ù³”ê1
 U
 java:S1854)"8Remove this useless assignment to local variable "flag".(½û£Å8Ù³”ê1
-f
-java:S1128"DRemove this unused import 'cn.southwest.shop.enmus.AppHttpCodeEnum'.(óÍîıÿÿÿÿ8Ù³”ê1
-R
-java:S1128"0Remove this unused import 'io.jsonwebtoken.Jwt'.(ÖâÕ‡üÿÿÿÿ8Ù³”ê1
+F
+java:S1481)")Remove this unused "flag" local variable.(½û£Å8Ù³”ê1
 €
 java:S1488""^Immediately return this expression instead of assigning it to the temporary variable "wxUser".(èªÑûÿÿÿÿ8Ù³”ê1
+R
+java:S1128"0Remove this unused import 'io.jsonwebtoken.Jwt'.(ÖâÕ‡üÿÿÿÿ8Ù³”ê1
+f
+java:S1128"DRemove this unused import 'cn.southwest.shop.enmus.AppHttpCodeEnum'.(óÍîıÿÿÿÿ8Ù³”ê1

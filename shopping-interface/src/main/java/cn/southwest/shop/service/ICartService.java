@@ -16,6 +16,13 @@ public interface ICartService extends IService<Cart> {
      */
     public ResponseResult addCartProduct(Integer productId,String openId);
 
+    /**
+     * 删除购物车中商品
+     * @param productId
+     * @param openId
+     * @return
+     */
+    public ResponseResult deleteCartProduct(Integer productId,String openId);
 
     /**
      * 根据用户openId获取购物车中的商品
