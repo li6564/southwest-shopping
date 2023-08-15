@@ -12,7 +12,19 @@ spring:
   redis:
     host: 127.0.0.1
     port: 6379
-
+  # kafka
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: southwest-shop
+      enable-auto-commit: true
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    listener:
+      missing-topics-fatal: false
 # mybatis-plus
 mybatis-plus:
   mapper-locations: classpath*:cn/southwest/shop/mapper/xml/*.xml
@@ -43,6 +55,11 @@ dubbo:
   scan:
     #服务所在的包
     base-packages: cn.southwest.shop.service.impl
+
+shop:
+  kafka:
+    topics:
+      data-item-change: topic.shop.dataitem.change
 
 
 

@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "shop.kafka.topics",
+      "type": "cn.southwest.shop.properties.ShopKafkaTopicProperties",
+      "sourceType": "cn.southwest.shop.properties.ShopKafkaTopicProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shop.kafka.topics.data-item-change",
+      "type": "java.lang.String",
+      "description": "数据条目更新",
+      "sourceType": "cn.southwest.shop.properties.ShopKafkaTopicProperties",
+      "defaultValue": "topic.shop.dataitem.change"
+    }
+  ],
+  "hints": []
+}

@@ -43,12 +43,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/config/KafkaInitialConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/config/RedisConfig.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/config/WebConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/listener/DataItemChangeListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/listener/impl/CartProductChangeListener.java">
           <value>
             <set />
           </value>
@@ -158,6 +173,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/properties/ShopKafkaTopicProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/consumer/DataItemChangeConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/consumer/TopicConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/message/DataItemChangeMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/message/DataItemChangeType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/message/DataItemType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/provider/Service/IMessageQueueService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/provider/Service/impl/MessageQueueServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/provider/service/IMessageQueueService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/queue/provider/service/impl/MessageQueueServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/CartProductChangeListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/CartServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IAddressServiceImpl.java">
           <value>
             <set />
@@ -209,6 +284,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/IWxUserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopping-applet-provider/src/main/java/cn/southwest/shop/service/impl/MessageQueueServiceImpl.java">
           <value>
             <set />
           </value>
